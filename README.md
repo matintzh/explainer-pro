@@ -57,10 +57,3 @@ Pull requests and issues are welcome! Please follow the project's coding standar
 
 This project is licensed under the **GPL v2 or later**—see the LICENSE file for details.
 
-```
-
----
-
-Would you like me to help convert this into a `README.md` with proper markdown styling (headings, bullet lists, links)? Or assist with adding badges (e.g. build status, license, WordPress version compatibility)? Let me know—happy to help!
-::contentReference[oaicite:0]{index=0}
-```
