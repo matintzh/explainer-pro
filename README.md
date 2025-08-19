@@ -1,8 +1,3 @@
-Sure! Here's a polished README file for your **Explainer Pro** plugin, tailored for GitHub. It includes a project description, features, installation steps, usage, and a demo link.
-
----
-
-````
 # Explainer Pro
 
 **Explainer Pro** is a lightweight and highly customizable WordPress plugin that enables authors to highlight technical terms in posts and pages. Clicking the highlight opens a popup with rich explanatory content—perfect for glossaries, tutorials, or educational content.
