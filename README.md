@@ -1,4 +1,4 @@
-````markdown
+
 # Explainer Pro
 
 **Explainer Pro** is a lightweight and highly customizable WordPress plugin that enables authors to highlight technical terms in posts and pages. Clicking the highlight opens a popup with explanatory content—perfect for glossaries, tutorials, or educational content.
@@ -32,7 +32,7 @@
 - Use the shortcode manually:
   ```text
   [popup_hint term="Your Term" description="Your Explanation"]
-````
+---
 
 * From the admin settings, customize term styles, tooltip box appearance, and other visuals.
 * Add your own CSS or JavaScript under **Custom Code** for additional enhancements.
@@ -58,5 +58,3 @@ Pull requests and issues are welcome! Please follow the project's coding standar
 
 This project is licensed under the **GPL v2 or later** — see the LICENSE file for details.
 
-```
-```
