@@ -1,12 +1,13 @@
+````markdown
 # Explainer Pro
 
-**Explainer Pro** is a lightweight and highly customizable WordPress plugin that enables authors to highlight technical terms in posts and pages. Clicking the highlight opens a popup with rich explanatory content—perfect for glossaries, tutorials, or educational content.
+**Explainer Pro** is a lightweight and highly customizable WordPress plugin that enables authors to highlight technical terms in posts and pages. Clicking the highlight opens a popup with explanatory content—perfect for glossaries, tutorials, or educational content.
 
 [🔍 View Demo](https://matinsaber.com/explainer-pro/)
 
 ---
 
-##  Features
+## Features
 
 - **Custom Shortcode Generator** — Easy shortcode `[popup_hint term="..." description="..."]` to embed hints anywhere.
 - **Flexible Styling Options** — Customize font size, colors, icon size, tooltip box padding, margins, shadows, and more from settings.
@@ -14,19 +15,19 @@
 - **Responsive & Lightweight** — Designed to work seamlessly on desktop and mobile.
 - **Admin & Frontend Separation** — Cleaner performance and better organization.
 - **TinyMCE Button** — Quick access to insert hints while editing content.
-- **AJAX-powered Shortcode Generator** — Optional admin utility for live shortcode previews.
+- **AJAX-powered Shortcode Generator** — Live shortcode preview in admin.
 
 ---
 
-##  Installation
+## Installation
 
-1. **Clone** or download this repository into `wp-content/plugins/explainer-pro`.
-2. **Activate** the plugin via the WordPress admin under **Plugins → Installed Plugins**.
+1. Clone or download this repository into `wp-content/plugins/explainer-pro`.
+2. Activate the plugin via the WordPress admin under **Plugins → Installed Plugins**.
 3. Navigate to **Settings → Explainer Pro** to configure default styles and behavior.
 
 ---
 
-##  Usage
+## Usage
 
 - Use the shortcode manually:
   ```text
@@ -40,8 +41,8 @@
 
 ## Development
 
-* **Frontend assets** (`popup-hint.css`, `popup-hint.js`) are conditionally enqueued only on singular views to optimize performance.
-* **Admin assets** (`popup-hint-admin.css`, `popup-hint-admin.js`) plus shortcode helper UI included via AJAX.
+* **Frontend assets** (`popup-hint.css`, `popup-hint.js`) are enqueued only on singular views to optimize performance.
+* **Admin assets** (`popup-hint-admin.css`, `popup-hint-admin.js`) include the shortcode helper UI.
 * **Shortcode generator** in admin uses secure AJAX callbacks with nonces.
 * **TinyMCE integration** for easy visual hint insertion.
 
@@ -55,5 +56,7 @@ Pull requests and issues are welcome! Please follow the project's coding standar
 
 ## License
 
-This project is licensed under the **GPL v2 or later**—see the LICENSE file for details.
+This project is licensed under the **GPL v2 or later** — see the LICENSE file for details.
 
+```
+```
